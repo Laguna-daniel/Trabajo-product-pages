@@ -4,7 +4,7 @@ body {
   background-color: #f9f9f9;
 }
 
-/* Navbar */
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -34,7 +34,7 @@ body {
   border-radius: 5px;
 }
 
-/* Hero */
+
 .hero {
   display: flex;
   justify-content: space-between;
@@ -74,7 +74,7 @@ body {
   width: 250px;
 }
 
-/* Features */
+
 .features {
   padding: 60px;
   text-align: center;
@@ -93,7 +93,7 @@ body {
   width: 300px;
 }
 
-/* Pricing */
+
 .pricing {
   background: #2a1447;
   color: white;
@@ -135,7 +135,7 @@ body {
   text-decoration: none;
 }
 
-/* Footer */
+
 .footer {
   display: flex;
   justify-content: space-between;
