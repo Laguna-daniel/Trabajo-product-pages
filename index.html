@@ -1,15 +1,21 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Product Page</title>
-    <link rel="stylesheet" href="styles/styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Product Page</title>
+  <link rel="stylesheet" href="styles/styles.css"/>
 </head>
 <body>
-   
+
+  <!-- NAVBAR -->
   <header class="navbar">
-    <div class="logo">LOGO <span>Bleux</span></div>
+    <div class="logo">
+      <img src="assets/imagenes/logo.png" alt="Logo"> <!-- Coloca tu logo aquí -->
+      <span>Bleux</span>
+      <small>Page template</small>
+    </div>
     <nav class="menu">
       <a href="#">About</a>
       <a href="#">Features</a>
@@ -19,6 +25,7 @@
     </nav>
   </header>
 
+  <!-- HERO SECTION -->
   <section class="hero">
     <div class="hero-text">
       <h1>Product Page</h1>
@@ -29,16 +36,16 @@
       </div>
     </div>
     <div class="hero-img">
-      
+      <div class="img-background"></div>
       <img src="assets/imagenes/phone.png" alt="Phone Screenshot">
     </div>
   </section>
 
+  <!-- FEATURES -->
   <section class="features">
     <h2>Fonctionnalités</h2>
     <div class="features-container">
       <div class="features-img">
-       
         <img src="assets/imagenes/laptop.png" alt="Laptop Screenshot">
       </div>
       <div class="features-text">
@@ -54,11 +61,13 @@
     </div>
   </section>
 
+  <!-- PRICING -->
   <section class="pricing">
     <h2>Plans & Pricing</h2>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris aliquet malesuada feugiat.</p>
     <div class="pricing-cards">
       <div class="card">
+        <img src="assets/imagenes/hoja.png" alt="Lite Icon" class="card-icon">
         <h3>Lite</h3>
         <p class="price">$0 <span>Free</span></p>
         <ul>
@@ -72,6 +81,7 @@
       </div>
 
       <div class="card">
+        <img src="assets/imagenes/nube.png" alt="Standard Icon" class="card-icon">
         <h3>Standard</h3>
         <p class="price">$24 <span>per month</span></p>
         <ul>
@@ -85,6 +95,7 @@
       </div>
 
       <div class="card">
+        <img src="assets/imagenes/maletin.png" alt="Ultimate Icon" class="card-icon">
         <h3>Ultimate</h3>
         <p class="price">$400 <span>per user / year</span></p>
         <ul>
@@ -99,14 +110,10 @@
     </div>
   </section>
 
+  <!-- FOOTER -->
   <footer class="footer">
     <p>© Website made by Mivfx - contact@address.com</p>
-    <div class="social">
-      <a href="#">F</a>
-      <a href="#">T</a>
-      <a href="#">I</a>
-      <a href="#">in</a>
-    </div>
   </footer>
+
 </body>
 </html>
